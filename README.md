@@ -55,7 +55,7 @@ The held-out test dataset is provided as:
 
 GitHub Repository:
 
-PASTE YOUR GITHUB REPOSITORY LINK HERE
+https://github.com/chiraga581/2025AC05139-ML-Assignment-2
 
 ---
 
@@ -85,12 +85,12 @@ The models were evaluated using:
 
 | ML Model Name | Accuracy | AUC | Precision | Recall | F1 Score | MCC |
 |---|---:|---:|---:|---:|---:|---:|
-| Logistic Regression | | | | | | |
-| Decision Tree | | | | | | |
-| KNN | | | | | | |
-| Naive Bayes | | | | | | |
-| Random Forest (Ensemble) | | | | | | |
-| SVM | | | | | | |
+| Logistic Regression | 0.961|0.9617 |0.8692 |0.6371 |0.7352 | 0.7248|
+| Decision Tree |0.9714|0.9717|0.9585|0.6929|0.8044|0.8015|
+| KNN |0.9578|0.9045|0.9289|0.5453|0.6872|0.6934|
+| Naive Bayes | 0.6145|0.8901|0.1736|0.94|0.293|0.2933|
+| Random Forest (Ensemble) | 0.9232|0.9724|0.5295|0.8718|0.6588|0.6429|
+| SVM |0.9634|0.8866|0.9672|0.5894|0.7325|0.7394|
 
 ---
 
@@ -142,7 +142,7 @@ The model was evaluated using Accuracy, AUC, Precision, Recall, F1 Score and MCC
 
 The overall winner was selected primarily based on F1 Score while also considering AUC, MCC, Precision, Recall and Accuracy.
 
-**Overall Winner: INSERT MODEL NAME**
+**Overall Winner: Discision Tree
 
 The selected model achieved the strongest overall balance of classification performance according to the experimental results.
 
@@ -211,4 +211,6 @@ The application displays the performance of all six implemented models.
 │   └── svm.pkl
 │
 └── notebooks/
-    └── ML_Assignment_2.ipynb
+    └── 01_Data_Preparation.ipynb
+    └── 02_model_training.ipynb
+    └── app.py
